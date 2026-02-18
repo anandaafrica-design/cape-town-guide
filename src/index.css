@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@400;500&display=swap');
+
+body {
+  margin: 0;
+  font-family: Montserrat, system-ui;
+  background: #fdfbf7;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+}
+
+h1,h2,h3 {
+  font-family: "Cormorant Garamond";
+}
+
+img {
+  width: 100%;
+  border-radius: 16px;
+  margin: 20px 0;
+}
+
+section {
+  margin-bottom: 60px;
+}
