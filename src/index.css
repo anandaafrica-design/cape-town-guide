@@ -6,9 +6,9 @@
   font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color-scheme: dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #09090b;
+  color-scheme: light;
+  color: #18181b;
+  background-color: #fafafa;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -35,25 +35,30 @@ html, body {
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #09090b;
+  background: #f4f4f5;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #27272a;
+  background: #d4d4d8;
   border-radius: 10px;
-  border: 2px solid #09090b;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #3f3f46;
+  background: #a1a1aa;
 }
 
 /* Selection Color */
 ::selection {
   background: #fdb813;
-  color: #09090b;
+  color: #ffffff;
+}
+
+@layer base {
+  h1, h2, h3, h4 {
+    @apply tracking-tight;
+  }
 }
