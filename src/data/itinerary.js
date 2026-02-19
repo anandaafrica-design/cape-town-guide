@@ -41,9 +41,9 @@ export const days = [
         name: "Kloof Street House",
         lat: -33.9289,
         lng: 18.4117,
-        description: "A magical Victorian house with fairy-lit gardens. Maximalist interiors and an eclectic menu. Atmosphere is the real draw.",
+        description: "A magical Victorian house with fairy-lit gardens. Maximalist interiors and an eclectic menu. Atmosphere is the real draw. [View the Menu](https://www.kloofstreethouse.co.za/a-la-carte/)",
         time: "Evening",
-        image: "https://images.unsplash.com/photo-1561571994-3c61c554181a?w=800"
+        image: "https://media-cdn.tripadvisor.com/media/photo-s/09/b3/11/83/kloof-street-house.jpg"
       }
     ]
   },
