@@ -51,7 +51,7 @@ export const days = [
     title: "The Peninsula Loop",
     subtitle: "The Ultimate Road Trip",
     images: [
-      "https://images.unsplash.com/photo-1516939884455-1445c8652f83?w=1200"
+      "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=1200"
     ],
     places: [
       {
