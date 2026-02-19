@@ -34,7 +34,7 @@ export const days = [
         name: "Norval Foundation",
         lat: -34.0722,
         lng: 18.4361,
-        description: "Contemporary African art set on protected wetlands. Large outdoor sculptures. Lunch or picnic on site at Grub & Vine.",
+        description: "Contemporary African art set on protected wetlands. Large outdoor sculptures. Lunch or picnic on site at [Grub & Vine](https://grubandvine.co.za/food-norval/).",
         time: "Morning"
       },
       {
