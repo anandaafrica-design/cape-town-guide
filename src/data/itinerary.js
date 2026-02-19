@@ -11,7 +11,7 @@ export const days = [
         name: "Secret Gin Bar",
         lat: -33.9253,
         lng: 18.4216,
-        description: "Enter via Honest Chocolate on Wale Street. Dimly lit apothecary-style bar serving South African gins only. No cocktail menu; they design a drink around your taste.",
+        description: 'Enter via Honest Chocolate on Wale Street. Dimly lit apothecary-style bar serving South African gins only. Their "House Remedies" menu offers cures for all manner of ills. [View the Menu](https://www.theginbar.co.za/menu)',
         time: "Evening",
         image: "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800"
       },
