@@ -1,9 +1,31 @@
-import { MapPin, Clock } from "lucide-react";
+import { MapPin, Clock, ExternalLink } from "lucide-react";
 
 export default function Day({ day, index }) {
+  const renderDescription = (text) => {
+    if (!text) return null;
+    const parts = text.split(/(\[.*?\]\(.*?\))/g);
+    return parts.map((part, i) => {
+      const match = part.match(/\[(.*?)\]\((.*?)\)/);
+      if (match) {
+        return (
+          <a 
+            key={i} 
+            href={match[2]} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 text-amber-600 hover:text-amber-700 font-bold underline decoration-amber-200 underline-offset-4 transition-colors"
+          >
+            {match[1]}
+            <ExternalLink size={14} />
+          </a>
+        );
+      }
+      return part;
+    });
+  };
+
   return (
     <section className="relative grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-      {/* Sticky Image Side */}
       <div className="lg:sticky lg:top-24 space-y-8">
         <div className="relative aspect-[4/5] overflow-hidden rounded-[2.5rem] shadow-2xl shadow-stone-200 group">
           <img 
@@ -12,7 +34,6 @@ export default function Day({ day, index }) {
             className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-stone-900/60 via-transparent to-transparent" />
-          
           <div className="absolute bottom-10 left-10 right-10">
             <span className="text-amber-400 font-bold text-sm tracking-[0.4em] uppercase mb-3 block">
               Day {index + 1}
@@ -26,8 +47,6 @@ export default function Day({ day, index }) {
           </div>
         </div>
       </div>
-
-      {/* Content Side */}
       <div className="space-y-20 pt-8">
         {day.places.map((place, i) => (
           <div key={i} className="group relative">
@@ -37,16 +56,12 @@ export default function Day({ day, index }) {
                   <Clock size={16} />
                   <span className="text-sm font-bold tracking-[0.2em] uppercase">{place.time}</span>
                 </div>
-                
                 <h3 className="text-3xl font-black tracking-tight text-stone-900 group-hover:text-amber-500 transition-colors duration-300">
                   {place.name}
                 </h3>
-                
                 <p className="text-stone-600 leading-relaxed font-medium text-xl">
-                  {place.description}
+                  {renderDescription(place.description)}
                 </p>
-
-                {/* Place Specific Image */}
                 {place.image && (
                   <div className="mt-8 overflow-hidden rounded-3xl aspect-video shadow-xl shadow-stone-100">
                     <img 
@@ -56,7 +71,6 @@ export default function Day({ day, index }) {
                     />
                   </div>
                 )}
-
                 <div className="flex items-center gap-3 text-stone-400 pt-4">
                   <MapPin size={16} />
                   <span className="text-sm font-medium tracking-wide">Cape Town, South Africa</span>

@@ -19,7 +19,7 @@ export const days = [
         name: "Fable on Bree",
         lat: -33.9228,
         lng: 18.4189,
-        description: "A theatrical cocktail bar where you are literally handcuffed to your drink. Fun, playful, and very Cape Town.",
+        description: "A theatrical cocktail bar where you are literally handcuffed to your drink. Fun, playful, and very Cape Town. [View the Menu](https://fablecocktailbar.capetown/wp-content/uploads/fableMenu-Chpt2Pt4_compressed.pdf)",
         time: "Late Evening",
         image: "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800"
       }
