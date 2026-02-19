@@ -287,5 +287,85 @@ export const days = [
         time: "Full Day"
       }
     ]
+  },
+  {
+    title: "Culinary Icons",
+    subtitle: "The Top 10 Dining Experiences",
+    images: [
+      "https://images.unsplash.com/photo-1550966842-2862ba996344?w=1200",
+      "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200"
+    ],
+    places: [
+      {
+        name: "La Colombe",
+        lat: -34.0114,
+        lng: 18.4244,
+        description: "Consistently ranked among the world's best. A fusion of Asian and French techniques in a stunning Constantia setting.",
+        time: "Fine Dining"
+      },
+      {
+        name: "FYN Restaurant",
+        lat: -33.9244,
+        lng: 18.4211,
+        description: "Neoteric Japanese-African fusion. An urban sanctuary with a dramatic ceiling installation and open kitchen.",
+        time: "Fine Dining"
+      },
+      {
+        name: "Salsify at The Roundhouse",
+        lat: -33.9389,
+        lng: 18.3833,
+        description: "Modern cooking in a historic setting with sweeping views of the Atlantic Ocean and Lion's Head.",
+        time: "Fine Dining"
+      },
+      {
+        name: "Chefs Warehouse Tintswalo Atlantic",
+        lat: -34.0533,
+        lng: 18.3589,
+        description: "Tapas-style dining right on the water's edge at the foot of Chapman's Peak.",
+        time: "Fine Dining"
+      },
+      {
+        name: "The Pot Luck Club",
+        lat: -33.9278,
+        lng: 18.4489,
+        description: "Luke Dale Roberts' iconic rooftop spot in the Old Biscuit Mill. Shared plates with global flavors.",
+        time: "Casual Chic"
+      },
+      {
+        name: "Wolfgat (Paternoster)",
+        lat: -32.8111,
+        lng: 17.8889,
+        description: "A short drive from the city, this world-renowned spot focuses on local, foraged ingredients from the West Coast.",
+        time: "Destination Dining"
+      },
+      {
+        name: "Belly of the Beast",
+        lat: -33.9289,
+        lng: 18.4233,
+        description: "An intimate, no-menu dining experience where you eat what the chefs have prepared for the day.",
+        time: "Intimate"
+      },
+      {
+        name: "Pier Restaurant",
+        lat: -33.9031,
+        lng: 18.4231,
+        description: "Sophisticated seafood-centric dining at the V&A Waterfront with views over the harbor.",
+        time: "Fine Dining"
+      },
+      {
+        name: "Waterside Restaurant",
+        lat: -33.9031,
+        lng: 18.4231,
+        description: "A more casual but equally refined sister to Pier, offering a relaxed harbor-side experience.",
+        time: "Casual Refined"
+      },
+      {
+        name: "Kloof Street House",
+        lat: -33.9289,
+        lng: 18.4117,
+        description: "A local favorite for its eclectic decor and magical garden. Perfect for a lively dinner.",
+        time: "Lively"
+      }
+    ]
   }
 ];
