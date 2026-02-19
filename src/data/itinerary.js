@@ -51,8 +51,7 @@ export const days = [
     title: "The Peninsula Loop",
     subtitle: "The Ultimate Road Trip",
     images: [
-      "https://images.unsplash.com/photo-1579338559128-28243a3a1794?w=1200",
-      "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=1200"
+      "https://images.unsplash.com/photo-1516939884455-1445c8652f83?w=1200"
     ],
     places: [
       {
@@ -68,8 +67,7 @@ export const days = [
         lat: -34.3568,
         lng: 18.4975,
         description: "Drive through the reserve (baboons, ostrich, bontebok possible). Take the Flying Dutchman Funicular to the old lighthouse.",
-        time: "Morning",
-        image: "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800"
+        time: "Morning"
       },
       {
         name: "Boulders Beach",
