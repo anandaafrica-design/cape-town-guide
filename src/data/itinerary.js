@@ -3,8 +3,7 @@ export const days = [
     title: "The Secret City",
     subtitle: "Hidden Bars & First Impressions",
     images: [
-      "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=1200",
-      "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=1200"
+      "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=1200"
     ],
     places: [
       {
@@ -20,8 +19,7 @@ export const days = [
         lat: -33.9228,
         lng: 18.4189,
         description: "A theatrical cocktail bar where you are literally handcuffed to your drink. Fun, playful, and very Cape Town. [View the Menu](https://fablecocktailbar.capetown/wp-content/uploads/fableMenu-Chpt2Pt4_compressed.pdf)",
-        time: "Late Evening",
-        image: "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=800"
+        time: "Late Evening"
       }
     ]
   },
