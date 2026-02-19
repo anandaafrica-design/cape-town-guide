@@ -13,7 +13,7 @@ export const days = [
         lng: 18.4216,
         description: "Enter via Honest Chocolate on Wale Street. Dimly lit apothecary-style bar serving South African gins only. No cocktail menu; they design a drink around your taste.",
         time: "Evening",
-        image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=800"
+        image: "https://insideguide.co.za/app/uploads/2021/08/fable-bar-interior.jpg"
       },
       {
         name: "Fable on Bree",
@@ -21,7 +21,7 @@ export const days = [
         lng: 18.4189,
         description: "A theatrical cocktail bar where you are literally handcuffed to your drink. Fun, playful, and very Cape Town.",
         time: "Late Evening",
-        image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=800"
+        image: "https://insideguide.co.za/app/uploads/2021/08/fable-bar-interior.jpg"
       }
     ]
   },
@@ -123,7 +123,7 @@ export const days = [
         lng: 18.4478,
         description: "Sand on the floor, mojitos, tapas, loud joyful chaos. A local institution.",
         time: "Evening",
-        image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=800"
+        image: "https://insideguide.co.za/app/uploads/2021/08/fable-bar-interior.jpg"
       }
     ]
   },
@@ -165,7 +165,7 @@ export const days = [
         lng: 18.4203,
         description: "Japanese street food downstairs, cocktails upstairs. A trendy city spot.",
         time: "Sundowner",
-        image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=800"
+        image: "https://insideguide.co.za/app/uploads/2021/08/fable-bar-interior.jpg"
       }
     ]
   },
@@ -345,7 +345,7 @@ export const days = [
         lng: 18.3833,
         description: "Modern cooking in a historic setting with sweeping views of the Atlantic Ocean and Lion's Head.",
         time: "Fine Dining",
-        image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=800"
+        image: "https://insideguide.co.za/app/uploads/2021/08/fable-bar-interior.jpg"
       },
       {
         name: "Chefs Warehouse Tintswalo Atlantic",
