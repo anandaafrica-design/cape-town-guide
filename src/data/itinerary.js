@@ -27,8 +27,7 @@ export const days = [
     title: "Art in the Wetlands",
     subtitle: "Sculpture, Nature & Atmosphere",
     images: [
-      "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=1200",
-      "https://images.unsplash.com/photo-1561571994-3c61c554181a?w=1200"
+      "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=1200"
     ],
     places: [
       {
@@ -36,8 +35,7 @@ export const days = [
         lat: -34.0722,
         lng: 18.4361,
         description: "Contemporary African art set on protected wetlands. Large outdoor sculptures. Lunch or picnic on site at Grub & Vine.",
-        time: "Morning",
-        image: "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?w=800"
+        time: "Morning"
       },
       {
         name: "Kloof Street House",
