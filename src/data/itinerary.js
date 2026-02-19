@@ -21,7 +21,7 @@ export const days = [
         lng: 18.4189,
         description: "A theatrical cocktail bar where you are literally handcuffed to your drink. Fun, playful, and very Cape Town.",
         time: "Late Evening",
-        image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800"
+        image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=800"
       }
     ]
   },
@@ -123,7 +123,7 @@ export const days = [
         lng: 18.4478,
         description: "Sand on the floor, mojitos, tapas, loud joyful chaos. A local institution.",
         time: "Evening",
-        image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800"
+        image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=800"
       }
     ]
   },
@@ -165,7 +165,7 @@ export const days = [
         lng: 18.4203,
         description: "Japanese street food downstairs, cocktails upstairs. A trendy city spot.",
         time: "Sundowner",
-        image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800"
+        image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=800"
       }
     ]
   },
@@ -345,7 +345,7 @@ export const days = [
         lng: 18.3833,
         description: "Modern cooking in a historic setting with sweeping views of the Atlantic Ocean and Lion's Head.",
         time: "Fine Dining",
-        image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800"
+        image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=800"
       },
       {
         name: "Chefs Warehouse Tintswalo Atlantic",
