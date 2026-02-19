@@ -16,20 +16,26 @@
   scroll-behavior: smooth;
 }
 
-body {
+/* Force natural scrolling */
+html, body {
   margin: 0;
-  min-width: 320px;
+  padding: 0;
+  width: 100%;
   min-height: 100vh;
+  height: auto !important;
+  overflow-y: auto !important;
   overflow-x: hidden;
 }
 
 #root {
   width: 100%;
+  min-height: 100vh;
+  height: auto !important;
 }
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -39,6 +45,7 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #27272a;
   border-radius: 10px;
+  border: 2px solid #09090b;
 }
 
 ::-webkit-scrollbar-thumb:hover {

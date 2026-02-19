@@ -4,9 +4,9 @@ import "./index.css";
 
 export default function App() {
   return (
-    <main className="w-full min-h-screen bg-zinc-950 text-white selection:bg-cape-gold selection:text-zinc-900">
+    <div className="w-full min-h-screen bg-zinc-950 text-white selection:bg-cape-gold selection:text-zinc-900">
       {/* Hero Section */}
-      <header className="relative h-[70vh] flex items-center justify-center overflow-hidden">
+      <header className="relative h-[80vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=1600" 
@@ -30,16 +30,16 @@ export default function App() {
       </header>
 
       {/* Itinerary Sections */}
-      <div className="max-w-6xl mx-auto px-6 pb-24 space-y-32">
+      <div className="max-w-6xl mx-auto px-6 pb-32 space-y-40">
         {days.map((day, i) => (
           <Day key={i} day={day} index={i} />
         ))}
       </div>
 
       {/* Footer */}
-      <footer className="py-12 border-t border-white/5 text-center text-zinc-600 text-sm uppercase tracking-widest">
+      <footer className="py-20 border-t border-white/5 text-center text-zinc-600 text-sm uppercase tracking-widest">
         <p>© 2026 Ananda Africa Design • Built for Beautiful Things</p>
       </footer>
-    </main>
+    </div>
   );
 }
