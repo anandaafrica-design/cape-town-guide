@@ -215,5 +215,77 @@ export const days = [
         time: "Evening"
       }
     ]
+  },
+  {
+    title: "Bees & Biodiversity",
+    subtitle: "The Byzantium at Babylonstoren",
+    images: [
+      "https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?w=1200",
+      "https://images.unsplash.com/photo-1473973266408-ed4e27abdd47?w=1200"
+    ],
+    places: [
+      {
+        name: "The Byzantium",
+        lat: -33.8242,
+        lng: 18.9267,
+        description: "An immersive homage to bees and biodiversity. Walk through the 'bee-friendly' gardens and explore the intricate world of these vital pollinators.",
+        time: "Morning"
+      },
+      {
+        name: "Babylonstoren Gardens",
+        lat: -33.8242,
+        lng: 18.9267,
+        description: "One of the best-preserved farmyards in the Cape. Every one of the 300 varieties of plants in the garden is edible or has medicinal value.",
+        time: "Afternoon"
+      }
+    ]
+  },
+  {
+    title: "San Heritage & Storytelling",
+    subtitle: "A Journey to !Khwa ttu",
+    images: [
+      "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=1200",
+      "https://images.unsplash.com/photo-1523805081446-ed9a7bb8999a?w=1200"
+    ],
+    places: [
+      {
+        name: "!Khwa ttu San Heritage Centre",
+        lat: -33.3611,
+        lng: 18.2714,
+        description: "Blends open landscapes with San culture and storytelling. A reflective and meaningful alternative to standard day trips.",
+        time: "Morning"
+      },
+      {
+        name: "San Guided Tour",
+        lat: -33.3611,
+        lng: 18.2714,
+        description: "Join a San guide for a walk through the fynbos to learn about tracking, medicinal plants, and the San way of life.",
+        time: "Afternoon"
+      }
+    ]
+  },
+  {
+    title: "Steam & Steampunk",
+    subtitle: "Elgin Railway Market",
+    images: [
+      "https://images.unsplash.com/photo-1515165597738-98114282e54b?w=1200",
+      "https://images.unsplash.com/photo-1534430480872-3498386e7a56?w=1200"
+    ],
+    places: [
+      {
+        name: "Elgin Railway Market",
+        lat: -34.1564,
+        lng: 19.0589,
+        description: "A steampunk-themed market in an old apple warehouse. Artisanal food, live music, and a truly unique atmosphere.",
+        time: "Lunch"
+      },
+      {
+        name: "Ceres Rail Company",
+        lat: -33.9189,
+        lng: 18.4233,
+        description: "Take a vintage steam train from Cape Town to the Elgin Market for the ultimate nostalgic experience.",
+        time: "Full Day"
+      }
+    ]
   }
 ];
