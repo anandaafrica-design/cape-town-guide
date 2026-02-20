@@ -174,52 +174,52 @@ export const days = [
     places: [
       {
         name: "La Colombe",
-        description: "Consistently ranked among the world's best. Asian-French fusion in a stunning Constantia setting.",
+        description: "Consistently ranked among the world's best. Asian-French fusion in a stunning Constantia setting. [View the Menu](https://www.lacolombe.restaurant/la-colombe)",
         time: "Fine Dining"
       },
       {
         name: "FYN Restaurant",
-        description: "Neoteric Japanese-African fusion with a dramatic urban setting in the city center.",
+        description: "Neoteric Japanese-African fusion with a dramatic urban setting in the city center. [View the Menu](https://www.fynrestaurant.com/menu)",
         time: "Fine Dining"
       },
       {
         name: "Salsify at The Roundhouse",
-        description: "Modern cooking in a historic setting with sweeping Atlantic views.",
+        description: "Modern cooking in a historic setting with sweeping Atlantic views. [View the Menu](https://salsify.co.za/menus/)",
         time: "Fine Dining"
       },
       {
         name: "Chefs Warehouse Tintswalo",
-        description: "Tapas-style dining right on the water's edge at Chapman's Peak.",
+        description: "Tapas-style dining right on the water's edge at Chapman's Peak. [View the Menu](https://www.chefswarehouse.co.za/tintswalo-menu)",
         time: "Fine Dining"
       },
       {
         name: "The Pot Luck Club",
-        description: "Iconic rooftop spot with global shared plates and harbor views.",
+        description: "Iconic rooftop spot with global shared plates and harbor views. [View the Menu](https://thepotluckclub.co.za/menu/)",
         time: "Casual Chic"
       },
       {
         name: "Wolfgat",
-        description: "World-renowned foraged West Coast ingredients. A true destination experience.",
+        description: "World-renowned foraged West Coast ingredients. A true destination experience. [View the Menu](https://wolfgat.co.za/menu/)",
         time: "Destination"
       },
       {
         name: "Belly of the Beast",
-        description: "A unique, no-menu experience where the chefs decide the day's offerings.",
+        description: "A unique, no-menu experience where the chefs decide the day's offerings. [View the Menu](https://bellyofthebeast.co.za/pages/menu-and-wine-list)",
         time: "Intimate"
       },
       {
         name: "Pier Restaurant",
-        description: "Sophisticated seafood-centric dining at the V&A Waterfront.",
+        description: "Sophisticated seafood-centric dining at the V&A Waterfront. [View the Menu](https://www.lacolombe.restaurant/pier)",
         time: "Fine Dining"
       },
       {
         name: "Waterside Restaurant",
-        description: "A relaxed but high-end harbor-side experience at the Waterfront.",
+        description: "A relaxed but high-end harbor-side experience at the Waterfront. [View the Menu](https://www.lacolombe.restaurant/waterside)",
         time: "Casual Refined"
       },
       {
         name: "Kloof Street House",
-        description: "A local favorite for its magical garden and eclectic Victorian vibe.",
+        description: "A local favorite for its magical garden and eclectic Victorian vibe. [View the Menu](https://www.kloofstreethouse.co.za/a-la-carte/)",
         time: "Lively"
       }
     ]
