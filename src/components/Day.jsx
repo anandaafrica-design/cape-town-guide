@@ -26,16 +26,27 @@ export default function Day({ day, index }) {
 
   return (
     <section className="relative border-t border-stone-200 pt-12 first:border-t-0 first:pt-0">
-      <div className="mb-12">
-        <span className="text-amber-500 font-bold text-xs tracking-[0.4em] uppercase mb-2 block">
-          Section {index + 1}
-        </span>
-        <h2 className="text-4xl md:text-5xl font-black tracking-tighter leading-none text-stone-900 mb-2">
-          {day.title}
-        </h2>
-        <p className="text-stone-500 font-medium tracking-wide italic text-lg">
-          {day.subtitle}
-        </p>
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-12 items-center">
+        <div className="lg:col-span-2">
+          <span className="text-amber-500 font-bold text-xs tracking-[0.4em] uppercase mb-2 block">
+            Section {index + 1}
+          </span>
+          <h2 className="text-4xl md:text-5xl font-black tracking-tighter leading-none text-stone-900 mb-2">
+            {day.title}
+          </h2>
+          <p className="text-stone-500 font-medium tracking-wide italic text-lg">
+            {day.subtitle}
+          </p>
+        </div>
+        {day.images && day.images.length > 0 && (
+          <div className="relative aspect-video lg:aspect-square overflow-hidden rounded-3xl shadow-xl shadow-stone-200">
+            <img 
+              src={day.images[0]} 
+              alt={day.title}
+              className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+            />
+          </div>
+        )}
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-10">

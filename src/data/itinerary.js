@@ -2,7 +2,9 @@ export const days = [
   {
     title: "The Secret City",
     subtitle: "Hidden Bars & First Impressions",
-    images: [],
+    images: [
+      "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=1200"
+    ],
     places: [
       {
         name: "Secret Gin Bar",
@@ -23,7 +25,9 @@ export const days = [
   {
     title: "Art & Cultural Installations",
     subtitle: "Feb - March 2026 Highlights",
-    images: [],
+    images: [
+      "https://images.unsplash.com/photo-1551918120-9739cb430c6d?w=1200"
+    ],
     places: [
       {
         name: "Investec Cape Town Art Fair",
@@ -50,7 +54,9 @@ export const days = [
   {
     title: "Queer & Pride Community",
     subtitle: "Cape Town Pride 2026",
-    images: [],
+    images: [
+      "https://images.unsplash.com/photo-1572451479139-6a308211d8be?w=1200"
+    ],
     places: [
       {
         name: "Pride Parade & Mardi Gras",
@@ -72,7 +78,9 @@ export const days = [
   {
     title: "Music & Festivals",
     subtitle: "Soundscapes of the Cape",
-    images: [],
+    images: [
+      "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=1200"
+    ],
     places: [
       {
         name: "Black Coffee Weekender",
@@ -99,7 +107,9 @@ export const days = [
   {
     title: "SUP & Ocean Activities",
     subtitle: "Paddling & Coastal Life",
-    images: [],
+    images: [
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1200"
+    ],
     places: [
       {
         name: "SUP Cape Town - Canal Paddling",
@@ -121,7 +131,9 @@ export const days = [
   {
     title: "Art in the Wetlands",
     subtitle: "Sculpture, Nature & Atmosphere",
-    images: [],
+    images: [
+      "https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?w=1200"
+    ],
     places: [
       {
         name: "Norval Foundation",
@@ -142,7 +154,9 @@ export const days = [
   {
     title: "The Peninsula Loop",
     subtitle: "The Ultimate Road Trip",
-    images: [],
+    images: [
+      "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=1200"
+    ],
     places: [
       {
         name: "Chapman's Peak Drive",
@@ -170,7 +184,9 @@ export const days = [
   {
     title: "Culinary Icons",
     subtitle: "The Top 10 Restaurants",
-    images: [],
+    images: [
+      "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200"
+    ],
     places: [
       {
         name: "La Colombe",
