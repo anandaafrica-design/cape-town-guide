@@ -2,9 +2,7 @@ export const days = [
   {
     title: "The Secret City",
     subtitle: "Hidden Bars & First Impressions",
-    images: [
-      "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=1200"
-    ],
+    images: [],
     places: [
       {
         name: "Secret Gin Bar",
